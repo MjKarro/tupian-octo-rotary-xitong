@@ -17,28 +17,10 @@ int main(void)
 		printf("fb_open error.\n");
 		return -1;
 	}
-	
-	//fb_draw_back(1024,600, RED);
-	 //fb_draw_picture6(700,420);
-	 //≤‚ ‘bmp
-	//is_bmp("2.bmp");
-	//picture.pathname="3.bmp";
-	//bmp_analyze(&picture);
-
-
-	//≤‚ ‘jpg
-	//display_bmp("1.bmp");
-
-	//sleep(3);
-	//display_jpg("1024600.jpg");
-
-	//≤‚ ‘png
-	//display_png("2.png");
 
 
 	scan_image2("image");
-//	while(1)
-//		show_images();
+
 
 	ts_updown();
 

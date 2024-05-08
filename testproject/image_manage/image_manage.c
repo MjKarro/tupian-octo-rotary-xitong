@@ -67,7 +67,7 @@ int scan_image(const char *path)
 
 
 }
-
+//检索方法2
 int scan_image2(const char *path)
 {
 	//在本函数中递归检索path 文件夹，将其中所有图片填充到images数组中
@@ -222,15 +222,7 @@ int ts_updown(void)
 		show_imag(i-1);
 		
 	}
-	
-	/*
-	printf("type:%hd.\n",env.type);	
-	printf("code:%hd.\n",env.code);
-	printf("value:%d.\n",env.value);
-	printf("-------------------------------\n");
-	*/
 	}
-
 	close(fd);
 	return 0;
 }

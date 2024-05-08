@@ -95,7 +95,7 @@ int is_bmp(const char *path)
 	read(fd,rgb_buf,len);
 
 	//第四步，放进fb显示
-	fb_draw(pPic);
+	fb_draw_bmp(pPic);
 	close(fd);
 	return 0;
 	

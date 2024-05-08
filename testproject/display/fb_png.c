@@ -141,7 +141,7 @@ int display_png(const char *pathname)
 	png_analyze(&picture);
 
 	//µÚ3²½:ÏÔÊ¾
-	fb_draw3(&picture);
+	fb_draw_png(&picture);
 	return 0;
 }
 

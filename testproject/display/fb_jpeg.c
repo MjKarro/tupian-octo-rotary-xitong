@@ -156,7 +156,7 @@ int display_jpg(const char *pathname)
 	jpg_analyze(&picture);
 
 	//µÚ3²½:ÏÔÊ¾
-	fb_draw2(&picture);
+	fb_draw_jpg(&picture);
 }
 
 
